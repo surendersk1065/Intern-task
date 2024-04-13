@@ -1,0 +1,249 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+.header input{
+  background-color: #F2F2F2;
+  border: none;
+  width: 360px;
+  padding:8px;
+  padding-left: 16px;
+  border-end-end-radius: 12px;
+  border-top-right-radius: 12px;
+  outline: none;
+}
+.form span{
+  padding:8px;
+  padding-left: 16px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-size: 18px;
+}
+.headbtn {
+  border: none;
+  background-color: white;
+}
+.headbtn span{
+  color: rgb(13 110 253);
+}
+.header input::placeholder{
+  color:black;
+}
+
+.background{
+  background-image: url('bg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+  position: relative;
+}
+.background .cont{
+  position: absolute;
+  bottom:40px;
+  left:100px;
+}
+@media all and (max-width:947px){
+  .background{
+    height:236px;
+  }
+  .background .cont {
+    left:20px;
+  }
+}
+.button button{
+  background: transparent;
+  border: 1px solid white;
+  color:#F2F2F2;
+  
+}
+
+.button .icon {
+  cursor: pointer;
+}
+.secnavbtn button{
+  border: none;
+}
+.secnav{
+  background-color: rgb(255, 255, 255);
+}
+.secnav .container{
+  max-width: 1040px;
+}
+.secnav .margin{
+  margin: 0px 100px;
+}
+.active-link{
+  border-bottom: 1px solid black;
+}
+.tbtn{
+  background-color: #F1F3F5;
+  border: none;
+  
+}
+.tbtn:hover{
+  
+  background-color: white;
+}
+.card{
+  max-width:694px;
+}
+.card .bgimage{
+  height: 220px;
+
+}
+.card .head{
+  font-weight:500;
+  font-size: 22px;
+  width: 580px;
+}
+.profile{
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.card .view{
+  margin: 0px 0px 0px 310px;
+  font-size: 14px;
+  
+}
+@media all and (max-width:990px){
+  .card .view{
+    margin:0px;
+  }
+}
+.cardbtn{
+  background-color: #EDEEF0;
+  border: none;
+
+}
+.webbtn{
+  background-color: #FFFFFF;
+  color: #E56135;
+  border: 1px solid #A9AEB8;
+}
+.webbtn:hover{
+  border:none;
+}
+@media all and (max-width:670px){
+ .card{
+  width:360px;
+ } 
+ .card .bgimage{
+  width:358px;
+  height: 120px;
+}
+.main{
+  width: 360px;
+}
+.post{
+  width: 360px;
+}
+}
+.grpimg{
+  width: 36px;
+  height: 36px;
+  border-radius: 21px;
+}
+.follbtn{
+  border-radius: 14px;
+  border: none;
+
+}
+.input-group{
+  border-bottom: 1px solid black;
+}
+.input-group input{
+  border: none;
+  outline: none;
+  margin-bottom: 6px;
+}
+.grp{
+  width:243px;
+}
+.post{
+  width:692px;
+}
+.grppara{
+  font-size: 12px;
+}
+.main{
+  max-width: 1048px;
+}
+@media all and (max-width:997px){
+  .grp{
+    display: none;
+  }
+}
+.threebtn{
+  border:none;
+  background: transparent;
+}
+
+.dialogbtn{
+  position: absolute;
+  top:-30px;
+  right:5px;
+  color: black;
+  background-color: white;
+  padding: -2px 2px;
+  border-radius: 100%;
+}
+
+.dialogbtn2{
+  position: absolute;
+  top:-10px;
+  right:5px;
+  color: black;
+  background-color: white;
+  padding: -2px 2px;
+  border-radius: 100%;
+}
+.closebtn{
+  font-size: 30px;
+}
+
+.crtbtn{
+  border-radius: 20px;
+}
+.crtdialog input{
+  background-color: ##F7F8FA;
+}
+.crtdialog::placeholder{
+  color: #D9D9DB;
+}
+.socbtn button{
+  border:none;
+  background-color: ##FFFFFF;
+}
+.nextmodbtn{
+  border:none;
+  background-color: white;
+}
+.nextmodbtn2{
+  border:none;
+  background-color: white;
+  color: blue;
+}
+@media all and (max-width:1004px){
+  .createlgmodal{
+    display: none;
+  }
+}
+.popbtn{
+  background: linear-gradient(180deg, #FF5C5C 0%, #F0568A 100%);
+  border: none;
+  border-radius: 100%;
+  padding: 16px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+.seemore{
+  border: none;
+  background:white;
+  color: blue;
+  
+}
