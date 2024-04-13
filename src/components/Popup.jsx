@@ -82,7 +82,7 @@ function Popup() {
           
             
 
-            <div className="crtdialog">
+            <div className="crtdialog px-4">
               <div>
                 <div className='container'>
                   <div className=''>
